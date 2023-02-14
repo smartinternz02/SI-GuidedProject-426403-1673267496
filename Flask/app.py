@@ -8,7 +8,7 @@ import requests
 import json
 
 app = Flask(__name__)
-model = pickle.load(open('app.py', 'rb'))
+model = pickle.load(open('D:\VisaApprovalPrediction-main\Training\Visarf.pkl', 'rb'))
 
 
 # NOTE: you must manually set API_KEY below using information retrieved from your IBM Cloud account.
